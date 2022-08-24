@@ -1,6 +1,7 @@
 #!/bin/bash
+
 echo -e "\033[0;35m"
-echo "@omiDBaghi";
+echo " @omiDBaghi  ";
 echo -e "\e[0m"
 
 sleep 2

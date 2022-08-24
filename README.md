@@ -10,7 +10,7 @@ To participate in the AIT-3 program, follow the below steps. Use these steps as 
 - Storage: 300GB (You have the option to start with a smaller size and adjust based upon demands)
 
 ### Set up your aptos validator
-#### Option 1 (automatic)
+Automatic 
 Use script below for a quick installation
 ```
 wget -qO aptos_validator.sh https://raw.githubusercontent.com/omiDBaghi/aptos/main/aptos_validator.sh && chmod +x aptos_validator.sh && ./aptos_validator.sh

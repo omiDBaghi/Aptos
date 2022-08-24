@@ -27,8 +27,6 @@ source $HOME/.bash_profile
 2. Enter your node public IP address and change `API port` to `80`
 3. You should see data like in example below:
 
-![image](https://user-images.githubusercontent.com/50621007/185860777-2731d375-61fd-4b2a-9c58-929bb9e6ad9b.png)
-
 ### Register your validator node
 1. Come back to the Aptos Community page and register your node by clicking on Step 4: `NODE REGISTRATION` button.
 
@@ -37,20 +35,14 @@ source $HOME/.bash_profile
 cat ~/$WORKSPACE/keys/public-keys.yaml
 ```
 
-![image](https://user-images.githubusercontent.com/50621007/185745845-7a507495-bc86-4c66-ac49-d8a6273c4fb9.png)
-
 - *OWNER KEY*: the first wallet public key. From `Settings -> Credentials`
 - *CONSENSUS KEY*: **consensus_public_key** from `public-keys.yaml`
 - *CONSENSUS POP*: **consensus_proof_of_possession** from `public-keys.yaml`
 - *ACCOUNT KEY*: **account_public_key** from `public-keys.yaml`
 - *VALIDATOR NETWORK KEY*: **validator_network_public_key** from `public-keys.yaml`
 
-![image](https://user-images.githubusercontent.com/50621007/185746074-4bc199a5-19d3-45ad-b506-dfa584b6b294.png)
-
 4. Next, click on VALIDATE NODE. If your node passes healthcheck, you will be prompted to complete the identity verification process.
 > The Aptos team will perform a node health check on your validator, using the Node Health Checker. When Aptos confirms that your node is healthy, you will be asked to complete the KYC process.
-
-![image](https://user-images.githubusercontent.com/50621007/185746723-87d7476a-9a01-4cbc-bbec-3922468e59c8.png)
 
 5. Wait for the selection announcement. If you are selected, the Aptos team will airdrop coins into your owner wallet address. If you do not see airdropped coins in your owner wallet, you were not selected.
 
@@ -78,6 +70,3 @@ rm ~/$WORKSPACE -rf
 docker volume rm aptos-validator
 unset NODENAME
 ```
-
-## (OPTIONAL) You can install fullnode on a seperate machine but its optional
-Guide can be found [here](https://github.com/kj89/testnet_manuals/blob/main/aptos/testnet/fullnode_manual_install.md)
